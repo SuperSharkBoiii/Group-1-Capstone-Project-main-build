@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color:aliceblue;
+} 
+
+button { 
+    font-family: monospace;
+    background-color: #4e4e4eb4;
+    color: #66fcf2;
+    font-size: 25px;
+    padding: 20px;
+    border: 3px solid #1F2833;
+}
+
+.home_text{
+    margin-top:20px;
+    background-color:#4e4e4eb4;
+    padding:5px;
+    color:#66fcf2;
+    border: 3px #66fcf2 solid;
+}
+
+nav {
+    border: 3px #66fcf2 solid;
+    background-color:#4e4e4eb4;
+    padding:10px;
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration-color: none;
+    color:#66fcf2;
+}
+
+button:hover {
+    background-color: gray;
+    opacity: 0.75;
+}
+.Intro{
+    font-size: 20px;
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+}
+.Info{
+    font-size: 20px;
+    font-family: monospace;
+    text-align:center;
+}
+.Name{
+    font-size: 20px;
+    font-family: monospace;
+    display: flex;
+    justify-content: flex-start;
+}
+.Bio{
+    font-size: 20px;
+    font-family: monospace;
+    text-align:left;
+}
+
+.LOGO{
+    width: 100px;
+}
+
